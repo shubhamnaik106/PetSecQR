@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(113deg, #A3F1FB 8.56%, #539BE4 90.69%);
+    
+}
+#box1{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: calc(50% - 900px/2);
+    top: calc(50% - 600px/2);
+    
+    background: linear-gradient(246.04deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 40px 40px 56px rgba(0, 0, 0, 0.02);
+    backdrop-filter: blur(17.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 32px;
+}
